@@ -14,8 +14,7 @@
     </tr>
   </thead>
   <tbody>
-
-
+    
     <?php foreach ($categoria as $cat) : ?>
       <tr>
         <td scope="row"><?=$cat['id']?></td>

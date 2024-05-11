@@ -25,6 +25,7 @@
         <a class="nav-link" href="<?= base_url('home');?>">Home</a>
         <a class="nav-link" href="<?= base_url('categoria');?>">Categorias</a>
         <a class="nav-link" href="<?= base_url('produto');?>">Produtos</a>
+        <a class="nav-link" href="<?= base_url('loja') ?>">Loja</a>
     </nav>
 
     <hr>
