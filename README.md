@@ -1,4 +1,7 @@
-# CodeIgniter 4 Framework
+# Atividade Arquitetura MVC utilizando Codeigniter 4
+
+Mais detalhes em no arquivo compartilhado no google docs [AQUI](https://docs.google.com/document/d/1Y71cA1MIdMHGlYulYpKd4AD9QT4WqXKYhDZr6Wy8bgA/edit?usp=sharing)
+
 
 ## O que é CodeIgniter?
 
