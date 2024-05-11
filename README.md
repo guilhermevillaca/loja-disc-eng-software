@@ -1,60 +1,38 @@
 # CodeIgniter 4 Framework
 
-## What is CodeIgniter?
+## O que é CodeIgniter?
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+CodeIgniter é um framework web PHP full-stack que é leve, rápido, flexível e seguro. Mais informações podem ser encontradas no site oficial .
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Este repositório contém a versão distribuível da estrutura. Ele foi construído a partir do repositório de desenvolvimento .
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+Mais informações sobre os planos para a versão 4 podem ser encontradas no CodeIgniter 4 nos fóruns.
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+Você pode ler o guia do usuário correspondente à versão mais recente do framework.
 
 ## Important Change with index.php
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+index.php não está mais na raiz do projeto! Foi movido para dentro da pasta pública , para melhor segurança e separação dos componentes.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+Isso significa que você deve configurar seu servidor web para "apontar" para a pasta pública do seu projeto , e não para a raiz do projeto. Uma prática melhor seria configurar um host virtual para apontar para lá. Uma prática ruim seria apontar seu servidor web para a raiz do projeto e esperar entrar public/... , pois o restante da sua lógica e da estrutura são expostos.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+Por favor, leia o guia do usuário para uma explicação melhor de como funciona o CI4!
 
 ## Repository Management
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+Usamos problemas do GitHub, em nosso repositório principal, para rastrear BUGS e rastrear pacotes de trabalho de DESENVOLVIMENTO aprovados. Usamos nosso fórum para fornecer SUPORTE e discutir SOLICITAÇÕES DE RECURSOS.
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+Este repositório é de "distribuição", construído por nosso script de preparação de lançamento. Problemas com isso podem ser levantados em nosso fórum ou como problemas no repositório principal.
 
 ## Server Requirements
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+É necessário PHP versão 8.1 ou superior, com as seguintes extensões instaladas:
 
 - [intl](http://php.net/manual/en/intl.requirements.php)
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 
-> [!WARNING]
-> The end of life date for PHP 7.4 was November 28, 2022.
-> The end of life date for PHP 8.0 was November 26, 2023.
-> If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> The end of life date for PHP 8.1 will be November 25, 2024.
+Além disso, certifique-se de que as seguintes extensões estejam habilitadas em seu PHP:
 
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+json (ativado por padrão - não desligue)
+mysqlnd se você planeja usar MySQL
+libcurl se você planeja usar a biblioteca HTTP\CURLRequest
