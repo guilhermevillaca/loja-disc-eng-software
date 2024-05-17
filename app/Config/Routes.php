@@ -15,3 +15,5 @@ $routes->get('categoria/novo', 'CategoriaController::novo');
 $routes->get('categoria/listar', 'CategoriaController::listar');
 $routes->get('categoria/editar', 'CategoriaController::editar');
 $routes->post('categoria/salvar', 'CategoriaController::salvar');*/
+
+$routes->resource('categorias');
